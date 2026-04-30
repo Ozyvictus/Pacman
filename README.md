@@ -12,7 +12,6 @@ At the beginning, the agent moves randomly. Over time, it starts learning:
 This is done using a Deep Q-Network (DQN).
 
 Each step follows this loop:
-
 --> Agent observes the current state
 --> Picks an action (random or predicted)
 --> Environment updates
@@ -23,7 +22,6 @@ Each step follows this loop:
 This repeats for many episodes until the agent improves.
 
 Each state includes:
-
 --> Direction to the goal
 --> Direction to the monster
 --> Distance to goal
